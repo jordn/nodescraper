@@ -10,7 +10,6 @@ In addition to Node (0.10.26 tested)
 
     "request": "latest",
     "cheerio": "latest",
-    "fs": "latest"
 
 To run
 ---

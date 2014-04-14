@@ -54,8 +54,9 @@ function scrapeWeGotTickets(pageLimits) {
      page_limits is a two element array of the first and last 
      page to scrape */
 
-  var page = pageLimits[0] || 1;
-  var finalPage = pageLimits[1] || 1000;
+  pageLimits = pageLimits || [1, 1000];
+  var page = pageLimits[0];
+  var finalPage = pageLimits[1];
   console.log("### Scraping WeGotTickets.com listing pages " +
     page + " to " + finalPage);
 
@@ -83,3 +84,6 @@ function scrapeWeGotTickets(pageLimits) {
 
 var pageLimits = [1,3];
 scrapeWeGotTickets(pageLimits);
+
+// Define functions available as a node module
+module.exports = scrapeWeGotTickets;
