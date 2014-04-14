@@ -1,7 +1,7 @@
 {
-  "name"         : "songkick-node-scraper",
+  "name"         : "wegottickets-scraper",
   "version"      : "0.1",
-  "description"  : "Scrape WeGotTickets.co.uk for lists",
+  "description"  : "Scrape WeGotTickets.co.uk for events",
   "main"         : "main.js",
   "author"       : "Jordan Burgess",
   "dependencies": {

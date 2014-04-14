@@ -1,0 +1,18 @@
+
+# Standard node gitignores
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+node_modules
+npm-debug.log
+
+# For this project
+listing_data/*.json
