@@ -1,0 +1,12 @@
+{
+  "name"         : "songkick-node-scraper",
+  "version"      : "0.1",
+  "description"  : "Scrape WeGotTickets.co.uk for lists",
+  "main"         : "main.js",
+  "author"       : "Jordan Burgess",
+  "dependencies": {
+    "request": "latest",
+    "cheerio": "latest",
+    "fs": "latest"
+  }
+}
