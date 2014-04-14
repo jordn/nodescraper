@@ -17,7 +17,7 @@ Open terminal at folder
 
     npm install
     ...
-    node main.js
+    node scraper.js
 
 
 

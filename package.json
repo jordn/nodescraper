@@ -1,6 +1,6 @@
 {
   "name"         : "wegottickets-scraper",
-  "version"      : "0.0.01",
+  "version"      : "0.0.1",
   "description"  : "Scrape WeGotTickets.co.uk for events",
   "main"         : "scraper.js",
   "author"       : "Jordan Burgess",
