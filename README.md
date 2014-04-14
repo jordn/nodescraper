@@ -1,6 +1,9 @@
 Node Scraper
 ===
-A simple web scraper to extract Event listings from WeGotTickets.com
+A node module to extract Event listings from WeGotTickets.com
+
+The module is `scraper.js`
+`main.js` is just a simple call to the scraper module, requesting the events from the first 3 pages of WeGotTickets.com) 
 
 Dependencies
 ---
@@ -17,7 +20,6 @@ Open terminal at folder
 
     npm install
     ...
-    node scraper.js
-
+    node main.js
 
 

@@ -5,7 +5,7 @@ var request = require("request");
 var cheerio = require("cheerio");
 var fs = require('fs');
 
-function extractListings(html) {
+var extractListings = function(html) {
   /* Given a page of WeGotTickets.com event listing page html,
     extract each event into a JSON file */
 
@@ -49,7 +49,7 @@ function extractListings(html) {
 }
 
 
-function scrapeWeGotTickets(pageLimits) {
+var scrapeWeGotTickets = function(pageLimits) {
   /* Request WeGotTickets.com's event listing pages to be scraped.
      page_limits is a two element array of the first and last 
      page to scrape */
@@ -82,8 +82,5 @@ function scrapeWeGotTickets(pageLimits) {
   loadPage(page);
 }
 
-var pageLimits = [1,3];
-scrapeWeGotTickets(pageLimits);
-
 // Define functions available as a node module
-module.exports = scrapeWeGotTickets;
+exports.scrapeWeGotTickets = scrapeWeGotTickets;
